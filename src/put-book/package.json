@@ -4,7 +4,7 @@
   "description": "AWS Lambda function source code that inserts a book in a DynamoDB table",
   "main": "index.js",
   "scripts": {
-    "test": "TABLE=books mocha ./tests/unit/*.spec.js --recursive",
+    "test": "env TABLE=books mocha ./tests/unit/*.spec.js --recursive",
     "e2e-test": "mocha ./tests/e2e/*.spec.js --recursive"
   },
   "author": "Amazon Web Services",
