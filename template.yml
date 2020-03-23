@@ -5,6 +5,7 @@ Parameters:
   Environment:
     Type: String
     Description: Environment to deploy resources to
+    Default: staging
     AllowedValues:
       - staging
       - production
