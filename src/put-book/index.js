@@ -15,6 +15,9 @@ if (process.env.E2E_TEST) {
 const client = new sdk.DynamoDB(ddbOptions);
 const tableName = process.env.TABLE;
 
+/**
+ * handler
+ */
 exports.handler = async event => {
     try {
         const book = JSON.parse(event.Records[0].body);
