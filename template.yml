@@ -4,7 +4,7 @@ Transform: 'AWS::Serverless-2016-10-31'
 Parameters:
   Environment:
     Type: String
-    Description: Environment to deploy the resources
+    Description: Environment for deployment of resources
     AllowedValues:
       - staging
       - production
