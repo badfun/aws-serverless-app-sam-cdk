@@ -40,5 +40,4 @@ exports.handler = async event => {
         console.log(error);
         throw error;
     }
- // random comment to make a commit work  
 };
